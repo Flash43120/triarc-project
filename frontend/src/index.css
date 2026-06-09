@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.status-active {
+  position: relative;
+}
+
+.status-active::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid #111827;
+  border-radius: 9999px;
+  animation: pulseRing 2s infinite;
+}
