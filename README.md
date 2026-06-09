@@ -15,10 +15,16 @@ A web-based job tracking system for a stainless steel workshop.
 - Photo Documentation
 - Quotation Management
 
-## Project Status
+## Screenshots
 
-🚧 In Progress
+### Login Page
 
-## Developer
+![Login](screenshots/login.jpg)
 
-Natthawut Saeko
+### Home Page
+
+![Home](screenshots/home.jpg)
+
+### Staff Page
+
+![Staff](screenshots/staff.jpg)
